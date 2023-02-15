@@ -1,8 +1,6 @@
 # Weather_API
 
-Vebsite for viewing the weather forecast uses an open API.
-
-GIF-search form that uses an open API to fetch gif images.
+Website for viewing the weather forecast uses an open API.
 
 Link: https://sariunar.github.io/Weather_API/weather.html
 
