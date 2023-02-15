@@ -1,0 +1,70 @@
+.container{
+    max-width: 2300px;
+    min-width: 300px;
+    margin: 0 auto;
+
+    min-height: 100vh;
+    background-image: url(images/pink-clouds-and-stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container div{
+    max-width: 100%;
+}
+#input{
+    width: 35vw;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(231, 148, 231);
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#input:focus{
+    outline: none;
+    cursor: pointer;
+}
+.city{
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0 15%;
+    border-bottom: 2px solid white;
+}
+.country{
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.date{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+.tempValue{
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgb(0 20 50 / 70%);
+}
+.hi-low, .weather{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 900px){
+    #input{
+        width: 55vw;
+    }
+}
